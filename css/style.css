@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  display: flex;
+  justify-content: center;  
+  background-color: lightgray;
+  width: 100vw;
+}
+
+nav a{
+  display:flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: midnightblue;
+  background-color: lightgray;
+  text-decoration: none;
+  width: 25%;
+  justify-content: center;
+  
+}
+
+nav a:hover{
+  background-color: midnightblue;
+  color: lightgray;
+}
+
+#header-img{
+  background-image: url('/img/pexels-sergio-souza-5048555.jpg');
+  display:flex;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header h1{
+  margin: auto auto;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+form{
+  color: white;
+  width: 100%;
+  background-color: midnightblue;
+  padding: 30px 10vw 30px 10vw;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-element {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 10px;
+}
+
+h1{
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+h3{
+  margin: 20px auto;
+}
+
+#portfolio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.main-text{
+  padding: auto auto;
+  background-color: lightgray;
+}
+
+.portfolio-img{
+  width: 33%;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-img:hover{
+  background-size: contain;
+}
+
+#raveshop{
+ background-image: url(/img/RaveShop\ kleurenlogo.png);
+}
+
+#stringtuner{
+ background-image: url(/img/stringtuner.png);
+}
+
+#webdesignjaap{
+  background-image: url(/img/logo\ wdj.png);
+}
+
+main h2{
+  text-align: center;
+  background-color: white;
+  margin: 10px 30px 10px 30px;
+}
+
+footer{
+  height: 3vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  vertical-align: auto;
+  bottom: 0%;
+  
+}
+
+h5{
+  margin: 5px;
+  color: white;
+}
+
+#submitted-main h1{
+  color: black;
+  text-align: center;
+}
+
+li{
+  font-size: 1,5em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  header {
+    min-width: 375px;
+  }
+}

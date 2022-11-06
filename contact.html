@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaap Moerkerk - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+</head>
+<body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#ervaring">Ervaring</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div id="header-img">
+        <h1>Jaap Moerkerk</h1>
+      </div>
+    </header>
+    <main>
+        <h1>
+            Contact
+        </h1>
+    
+        <form action="submitted.html">
+            <div class="form-element">
+                <label for="name">Naam</label>
+                <input id="name" type="text" name="name">
+            </div>
+           
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input id="city" type="email" placeholder="voorbeeld@email.nl" name="email">
+            </div>
+            <div class="form-element">
+                <label for="phone">Telefoonnummer</label>
+                <input id="phone" type="tel" name="phone">
+            </div>
+            <h3>
+                Contact
+            </h3>
+            <div class="form-element">
+                <label for="category">Ik wil bereikt worden via...</label>
+                <select name="category" id="category">
+                    <option value="telefoon">Telefoon</option>
+                    <option value="email">E-mail</option>
+                    <option value="afspraak">Afspraak</option>
+                    
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="question">Mijn vraag</label>
+                <textarea id="question" type="question" placeholder="Stel hier je vraag" name="question"></textarea>
+            </div>
+           
+            <div class="form-element">
+                <label for="voorwaarden">Akkoord met de voorwaarden</label>
+                <input type="checkbox" name="voorwaarden" id="voorwaarden" required>
+            </div>
+            <div>
+                <button type="submit" value="submit">Verzenden</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <h5>
+            Copyright @ 2022, Jaap Moerkerk
+          </h5>
+    </footer>
+</body>
+</html>
